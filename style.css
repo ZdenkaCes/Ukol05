@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
@@ -6,4 +16,108 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+body {
+  margin: 60px 0;
+}
+
+h1 {
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  font-size: 28px;  
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 37px;
+  margin: 133px 0 0 0;
+  text-align: left;  
+}
+
+h2 {
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  font-size: 16px;  
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px;  
+}
+
+p {
+  margin: 0;
+}
+
+.uvod, .CK, .delegati {
+  font-family: "Montserrat", serif;
+  font-weight: normal;
+  font-size: 16px;  
+  color: #8B8B8B;
+  letter-spacing: 0;
+  line-height: 21px;
+  max-width: 1200px;
+  margin: 60px 10%;
+}
+
+.uvod {
+  max-height: 474px;
+  align-content: center;
+}
+
+.uvod img {
+  float: right;
+  overflow: auto;
+  max-width: 426px;
+  max-height: 352px;
+  margin: 60px 82px;
+}
+
+.button {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-size: 14px;  
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  display: flex;
+}
+
+.dobrodruzstvi {
+  background-color: #407BFF;
+  width: 195px;
+  padding: 11px 30px;
+  margin: 18px;
+  border-radius: 50px;
+}
+
+.pohoda {
+  background-color: #8B8B8B;
+  width: 220px;
+  padding: 11px 25px;
+  margin: 18px;
+  border-radius: 50px;
+}
+
+.icon {
+  font-family: "Montserrat", serif;
+  font-weight: 300;
+  font-size: 13px;  
+  color: #8B8B8B;
+  letter-spacing: 0;
+  line-height: 17px;
+  width: 170px;
+  height: 191px;
+  align-content: center;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  margin: 14px;
+  padding: 0 15px;
+}
+
+.sluzbyCK, .sluzbyDelegatu {
+  max-width: 430px;
+  max-height: 191px;
+}
+
+.CK, .delegati {
+  display: flex;
 }
