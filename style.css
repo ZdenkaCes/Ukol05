@@ -21,7 +21,6 @@ html {
 body {
   max-width: 1040px
   background-color: #FAFAFA;
-  margin: auto;
 }
 
 h1 {
@@ -55,22 +54,20 @@ p {
   color: #8B8B8B;
   letter-spacing: 0;
   line-height: 21px;
-  max-width: 1200px;
-  margin: 80px 10%;
+  max-width: 1040px;
+  margin: 80px auto;
 }
 
 .uvod {
-  max-width: 490px;
-  max-height: 474px;
+    max-height: 474px;
   align-content: center;
 }
-
 .uvod img {
   float: right;
   overflow: auto;
-  max-width: 425px;
+  max-width: 490px;
   max-height: 352px;
-  margin: 33px 82px;
+  padding: 0 32px
 }
 
 .button {
