@@ -20,6 +20,7 @@ html {
 
 body {
   margin: 60px 0;
+  background-color: #FAFAFA;
 }
 
 h1 {
@@ -101,6 +102,7 @@ p {
   font-weight: 300;
   font-size: 13px;  
   color: #8B8B8B;
+  background-color: #FFFFFF;
   letter-spacing: 0;
   line-height: 17px;
   width: 170px;
@@ -108,7 +110,7 @@ p {
   align-content: center;
   text-align: center;
   border-radius: 25px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 6px #407BFF1F;
   margin: 14px;
   padding: 0 15px;
 }
@@ -116,6 +118,8 @@ p {
 .sluzbyCK, .sluzbyDelegatu {
   max-width: 430px;
   max-height: 191px;
+  align-content: center;
+  padding: 10px;
 }
 
 .CK, .delegati {
