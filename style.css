@@ -21,7 +21,7 @@ html {
 body {
   max-width: 1040px
   background-color: #FAFAFA;
-  align-content: center;
+  margin: auto;
 }
 
 h1 {
