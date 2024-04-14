@@ -124,3 +124,34 @@ p {
 .CK, .delegati {
   display: flex;
 }
+
+
+
+@media screen and (max-width:640px) {
+  h1 {
+    text-align: center;
+    margin: 10px auto;
+  }
+  .uvod, .CK, .delegati {
+    display: block;
+    align-content: center;
+    text-align: center;
+  }
+
+  .uvod img {
+    margin: 10px auto;
+  }
+
+  .button, .dobrodruzstvi,.pohoda {
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .icon {
+    width: 460px;
+    height: 80px;
+    margin: 20px;
+  }
+}
