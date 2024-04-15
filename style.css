@@ -98,6 +98,18 @@ p {
   border-radius: 50px;
 }
 
+.sluzbyCK {
+  justify-content: right;
+}
+
+.ikony0, .ikony2 {
+  display: flex;
+}
+
+.ikony1 {
+  display: none;
+}
+
 .icon {
   font-family: "Montserrat", serif;
   font-weight: 300;
@@ -152,17 +164,68 @@ p {
     margin: 10px auto;
   }
 
+  .ikony0 {
+    display: none;
+  }
+
+  .ikony1, .ikony2 {
+    display: block;
+  }
+
   .icon {
     max-width: 460px;
     min-width: 300px;
     max-height: 80px;
     margin: 20px;
   }
+
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (min-width: 640px) and (max-width:1100px) {
+  body {
+    max-width: 1100px
+    background-color: #FAFAFA;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 80px auto 17px auto;
+  }
+
+  .uvod img {
+    position: relative;
+    top: 60px;
+    float: none;
+  }
+  
   .uvod {
     display: block;
+    align-content: center;
+    text-align: center;
+  }
+
+  .button {
+    align-content: center;
+  }
+
+  .CK, .delegati {
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    display:block;
+  }
+
+  .ikony0 {
+    display: none;
+  }
+
+  .ikony1, .ikony2 {
+    display: flex;
   }
 
 }
