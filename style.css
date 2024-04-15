@@ -133,6 +133,7 @@ p {
   h1 {
     text-align: center;
     margin: 10px auto;
+    margin-bottom: 30px;
   }
   .uvod, .CK, .delegati {
     display: block;
@@ -160,26 +161,8 @@ p {
 }
 
 @media screen and (max-width:1100px) {
-  .uvod img {
-    margin: 10px auto;
-    float: center;
-  }
-
-  .CK, .delegati {
+  .uvod {
     display: block;
-    align-content: center;
-    text-align: center;
-  } 
-}
-
-@media screen and (max-width:1100px) {
-  .uvod, .CK, .delegati {
-    align-content: center;
-  }
-  .uvod img {
-    margin: 10px auto;
-    float: center;
   }
 
-  
 }
